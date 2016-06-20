@@ -13,7 +13,7 @@ chmod +x dockershell
 
 3) create a link on your bin path
 
-sudo ln -s `pwd`/dockershell /usr/local/bin/dockershell
+"sudo ln -s `pwd`/dockershell /usr/local/bin/dockershell"
 
 Launch dockershell from your docker server's command line.
 Choose the container in the list.
