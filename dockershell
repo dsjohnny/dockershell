@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+################################################
+#dockershell v0.1  by  Johnny Da Silva
+# a simple and quick shell inside your container
+# 20/06/2016
+################################################
+echo "Choose your container id  :"
+docker ps | awk '{if (NR!=1) {print $1" "$2}}'
+select i in `docker ps | awk '{if (NR!=1) {print $1}}'`;
+        do
+        docker exec -ti $i   /usr/bin/bash
+        break
+        done
