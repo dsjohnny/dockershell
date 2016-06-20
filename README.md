@@ -1,11 +1,11 @@
 # dockershell
 A simple and quick shell inside your containers
 
-1) clone the dockershell repository
+1) clone the "dockershell" git repository
 
 git clone https://github.com/dsjohnny/dockershell
 
-2) make bash script executable
+2) make the bash script executable
 
 cd dockershell
 
